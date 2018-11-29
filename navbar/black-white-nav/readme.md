@@ -1,0 +1,1 @@
+This is a simple black-white colored navbar.
