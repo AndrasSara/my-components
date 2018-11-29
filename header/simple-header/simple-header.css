@@ -1,0 +1,51 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* ==== HEADER ==== */
+
+header {
+  text-align: center;
+}
+
+img {
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  padding: .25rem;
+}
+
+picture::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+h1, h2 {
+  text-align: center;
+  border-top: 2rem;
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 1.3rem;
+  padding-bottom: .6em;
+  color: grey;
+}
+
+h2 {
+  font-family: Verdana;
+  font-size: 1rem;
+  color: lightgrey;
+  letter-spacing: .1rem;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding-bottom: 5rem;
+}

@@ -1,0 +1,1 @@
+This header covers the full screen-size.
